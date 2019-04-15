@@ -1,0 +1,48 @@
+/* Intro CSS*/
+
+.intro::before,
+.intro::after {
+    display: block;
+    margin: 2em auto;
+    content: "";
+    width: 20%;
+    border-bottom: 3px solid hsla(0, 0%, 50%, .5);
+}
+
+.intro-title {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin-bottom: 1.4em;
+    font-size: 2.4em;
+    text-align: center;
+}
+
+.intro-text p {
+    margin-top: 0;
+}
+
+@media screen and (min-width: 498px) {
+  .intro {
+    max-width: 20em; /*sets the maximum width the intro will display*/
+    margin: 0 auto;
+  }
+  .columns {
+    -webkit-column-count: 2; /* sets the number of columns */
+    -webkit-column-gap: 2em; /* sets the gap between the columns */
+  }
+  .columns > p {
+    margin-top: 0;
+  }
+
+@media screen and (min-width: 700px) {
+  .intro {
+    max-width: 33em; /*sets the maximum width the intro will display*/
+    margin: 0 auto;
+  }
+  .columns {
+    -webkit-column-count: 2; /* sets the number of columns */
+    -webkit-column-gap: 2em; /* sets the gap between the columns */
+  }
+  .columns > p {
+    margin-top: 0;
+  }

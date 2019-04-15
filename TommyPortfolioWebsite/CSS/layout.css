@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------
+Layouts
+--------------------------------------------------------------*/
+
+body {
+    background: hsl(27, 45%, 79%, .50);
+}
+
+.content {
+    padding: 2em;
+}
+
+@media screen and (min-width: 36em) {
+    .single .content {
+        max-width: 38em;
+        margin: 0 auto;
+    }
+}
