@@ -3,15 +3,15 @@ Header styles minus menu
 --------------------------------------------------------------*/
 
 .masthead {
-    background: hsl(0, 0%, 90%);
+  background: hsl(27, 45%, 79%, .5);
 }
 
 @media screen and (min-width: 50em) {
-    .masthead {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+  .masthead {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
 }
 
 .site-branding{
@@ -24,18 +24,18 @@ Header styles minus menu
     height: 15%;
 }
 .site-title {
-    margin: 0;
-    padding:.2em .5em;
-    font-size: 2em;
-    font-weight: 300;
-    color: black;
+  margin: 0;
+  padding:.2em .5em;
+  font-size: 2em;
+  font-weight: 300;
+  color: black;
 }
 
 .site-title a {
-    color: hsl(0, 0%, 20%);
-    text-decoration: none;
+  color: hsl(7, 26%, 18%);;
+  text-decoration: none;
 }
 
 .site-title a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }

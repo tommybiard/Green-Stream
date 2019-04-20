@@ -14,3 +14,5 @@ The primary stylesheet for Oolith. This sheet pulls in all the components in ord
 @import url('CSS/footer.css');
 @import url('CSS/levels.css');
 @import url('CSS/single.css');
+@import url('CSS/fonts.css');
+@import url('CSS/animate.css');

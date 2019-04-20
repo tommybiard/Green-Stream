@@ -8,7 +8,11 @@ Main Navigation
 	font-family: sans-serif;
 	font-size: 1em;
 }
-
+/*
+nav#site-navigation {
+    width: 30%;
+}
+*/
 .main-navigation ul {
 	display: none;
 	list-style: none;
@@ -202,6 +206,7 @@ Main Navigation
         margin: 0 .5em;
         padding: 0;
         width: auto;
+				min-width: 40%;
 	}
 
 	.nav-menu {
