@@ -33,7 +33,7 @@ Banner stylesheet
 }
 
 /* Sets break points and display settings for different sized screens */
-@media screen and (min-width: 165px) and (max-width: 492px) {  /* At screen width 600px use these banner settings */
+@media screen and (min-width: 165px) and (max-width: 497px) {  /* At screen width 600px use these banner settings */
     body {
       /*  background: pink; */  /*Set this to see area you are manipulating */
         width: 100%;   /* sets the width of the items within the banner to be 50% of the banner space */
@@ -41,9 +41,7 @@ Banner stylesheet
         padding-bottom: 0em;
     }
 
-    body {
-      width: 140%;   /* sets the width of the items within the banner to be 50% of the banner space */
-    }
+  
 
     .site-branding, .site-title {
       width: 80%;
